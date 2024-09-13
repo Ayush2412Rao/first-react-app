@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Dashboard from './components/Dashboard';
+import Happy from './components/Happy';
+import Greetings from './components/Greetings';
+import InlineCSS from './components/InlineCSS';
+import ExternalCSS from './components/ExternalCSS';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code>Ayush ReactJS.
@@ -17,7 +21,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <Dashboard name="Ayush"/> */}
+      {/* <Happy/> */}
+      <Greetings name="Ayush"/>
+      {/* <InlineCSS/> */}
+      {/* <ExternalCSS/> */}
+
     </div>
   );
 }
