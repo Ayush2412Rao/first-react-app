@@ -34,7 +34,7 @@ root.render(hi);
 */
 // function displaydate()
 // {
-//   const element =(
+//   const element = (
 //     <div>
 //     <h1>Hai there</h1>
 //     <h2>{new Date().toLocaleTimeString()}</h2>

@@ -5,6 +5,8 @@ import Happy from './components/Happy';
 import Greetings from './components/Greetings';
 import InlineCSS from './components/InlineCSS';
 import ExternalCSS from './components/ExternalCSS';
+import UseState from './components/UseState';
+import UseEffect from './components/UseEffect';
 function App() {
   return (
     <div className="App">
@@ -24,10 +26,11 @@ function App() {
       </header> */}
       {/* <Dashboard name="Ayush"/> */}
       {/* <Happy/> */}
-      <Greetings name="Ayush"/>
+      {/* <Greetings name="Ayush"/> */}
       {/* <InlineCSS/> */}
       {/* <ExternalCSS/> */}
-
+      {/* <UseState/> */}
+      <UseEffect/>
     </div>
   );
 }
